@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <div class="col-xs-3">
+  <div class="col-xs-3">
     <div class="circle">
     <br />
     You know
@@ -18,9 +18,8 @@
     <br />
     to code
     </div>
-    </div>
+  </div>
 
-    </div>
     <div class="col-xs-4 slogan">
     Splurting out unsolicited advice about entrepreneurship since 2016
     </div>
@@ -32,7 +31,24 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+  <div class="col-xs-6">
+    <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+    Designed in Los Angeles, CA by <a href="http://thefirehoseproject.com">Russell</a><br />
+        Want to build your own Splurty Web App?  <a href="http://thefirehoseproject.com">Learn how to code here</a>
+    </div>
+  </div>
+</div>
+  <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</div>
 
 </body>
 </html>

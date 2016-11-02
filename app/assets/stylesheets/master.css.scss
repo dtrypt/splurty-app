@@ -2,11 +2,7 @@
 @import "bootstrap";
 
 header {
-  border-top: 9px solid #222222;
-}
-
-hr {
-  clear:both;
+  border-top: 5px solid #222222;
 }
 
 h1 {
@@ -20,6 +16,13 @@ font-family: 'kaushan_scriptregular', sans-serif;
 font-weight:bold;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  background-color: grey;
+  height: 4px;
+}
 
 .clear {
   clear:both;
@@ -58,8 +61,28 @@ font-weight:bold;
 
 .links a {
   color:black;
-  font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
-  font-family: 'kaushan_scriptregular', sans-serif;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+  font-family: 'corbel', sans-serif;
   font-weight:bold;
+}
+
+.next-quote {
+  color:white;
+  font-family: 'corbel', sans-serif;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  color:white;
+  text-align:right;
+  font-size:12px;
+}
+
+.footer-blurb a {
+  font-weight:bold;
+  color:white;
+  border-bottom: 1px solid white;
 }
